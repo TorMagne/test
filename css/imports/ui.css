@@ -1,0 +1,49 @@
+a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.btn {
+  align-self: center;
+  width: 200px;
+  padding: 0.8rem;
+  margin-top: 25px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  border: var(--primary) 2px;
+  border-radius: 0.7rem;
+  background: var(--primary);
+  color: white;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.btn:hover {
+  background: white;
+  color: var(--primary);
+  border: var(--primary) 2px;
+}
+
+.shadow {
+  box-shadow: 12px 17px 13px -6px #787878;
+}
+
+.message {
+  padding: 1rem;
+  border: 1px solid var(--grey);
+  color: var(--grey);
+}
+
+.success {
+  color: green;
+  border-color: green;
+  background: rgba(0, 255, 0, 0.1);
+}
+
+.error {
+  color: red;
+  border-color: red;
+  background: rgba(255, 0, 0, 0.1);
+}
